@@ -1,0 +1,52 @@
+body{
+    background-color: #333;
+    color: chartreuse;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+div{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+
+.green-box{
+
+    border: 1px solid chartreuse;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.red-box{
+
+    
+    border: 1px solid crimson;
+    color: red;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.blue-box{
+    
+    border: 1px solid blue;
+    color: cadetblue;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+h2.custom{
+ color: orange;
+ text-align: right;
+ letter-spacing: 8px;
+}
+
