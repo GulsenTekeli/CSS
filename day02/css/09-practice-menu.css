@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: red;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    background-color: slategray;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li.active{
+    background-color: black;
+    color: aliceblue;
+}

@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: red;
+    /* 100-900 arasi degerler alir  */
+     font-weight: 600;
+}
+
+a.link-one{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+}
+
+a.link-two{
+    /*             style  line      color*/
+  text-decoration: double  underline red; 
+  color: orange;
+  /*italic,normal ve oblique degerlerni alabilir  */
+  font-style: normal; 
+}
+
+a.link-three{
+    text-decoration: solid overline violet;
+    color: darkmagenta;
+}
+
+a.link-four{
+    text-decoration: wavy underline black;
+}
+
+p{
+    text-decoration: dotted underline greenyellow;
+}
+
+p.text{
+    text-decoration: dashed line-through red;
+    font-style: italic;
+    /* bold,bolder, lighter, normal degerlerini alabilir*/
+    font-weight: bold;
+   
+}
+p.line{
+    text-decoration: solid line-through black;
+}

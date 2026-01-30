@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: pink;
+}
+
+h1.title{
+    text-align: center;
+    color: red;
+}
+
+h1#header{
+    text-align: center;
+    color:darkred;
+}
