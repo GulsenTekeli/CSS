@@ -1,0 +1,63 @@
+/* html,body{
+    width: 100%;
+    height: 100vh;
+} */
+
+:root{
+    font-size: 12px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+/* vw  ekranin yuksekligini baz alir parentini umursamaz
+ekranin % sini kapla */
+/*  % lik parenti referans alir  parentin % 80 ini kapla*/
+
+.container{
+    background-color: goldenrod;
+    width: 80vw;
+    height: 300px ;
+}
+
+
+.msg{
+    background-color: lawngreen;
+    height: 200%;
+    width: 50%;
+    font-size: 2em;
+}
+
+/* vh  ekranin yuksekligini baz alir parentini umursamaz
+ekranin % sini kapla */
+.container-two{
+    background-color: darkslateblue;
+    height: 20vh;
+    width: 500px;
+}
+
+.font-container{
+    font-size: 10px;
+}
+
+/* 1 em = 10px
+2 em= 20px  parentini baz alir */
+.first{
+    font-size: 2em;
+}
+/* root elementin font-size degerini alir */
+
+/* rem root u referans alir rootremi anlamina gelir . parenti olsa bile rootu alir*/
+
+.second{
+    font-size: 2rem;
+}
+
+/* widt ve height icin % , vw-vh ve px kullanilir
+padding-margin icin px 
+border icin px
+font sizeda em-rem ve px kullanilir
+px genelde en guvenli opsiyondur
+ */
+

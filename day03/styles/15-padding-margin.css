@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: red;
+    background-color: beige;
+}
+.container{
+    background-color: blueviolet;
+    height: 800px;
+    /* padding: 50px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px; */
+    /* padding top tan baslayarak saat yonune dogru ilerler   
+              t     r     b    l*/
+    padding: 50px 100px 50px 50px;
+}
+.box1{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    /* margin-left:10px ;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    margin-left: 10px; */
+      /*     */
+    margin: 50px 100px;
+}
+.box2{
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    padding: 20px 50px 0px;
+}
+.box3{
+    background-color: lawngreen;
+    width: 50px;
+    height: 50px;
+}
+span{
+    background-color: coral;
+    padding: 20px 40px 60px 80px;
+    /* inline dikeyde margin alamaz  */
+    margin: 30000000000px 100px;
+}

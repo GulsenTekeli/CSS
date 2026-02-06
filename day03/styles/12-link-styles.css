@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+a{
+    font-size:24px;
+    text-decoration: none;
+}
+/* sadece ziyaret edilmemis linklere uygulanir */
+
+a:link{
+    color:orange
+}
+
+/* visited sadece ziyaret edilmislere uygulanir */
+a:visited{
+    color:black;
+    text-decoration: cadetblue;
+}
+
+a.link-one:hover{
+background-color: aquamarine;
+padding: 5px 10px;
+border-radius: 10px;
+color: white;
+
+}
+
+a.link-two:hover{
+    font-weight: 900;
+    text-decoration: solid underline salmon;
+}
+
+a.link-three:hover{
+    font-style: italic;
+    background-color: orangered;
+}
+
+h1:hover{
+    color: white;
+    background-color: black;
+}
+/* active uzerine tiklanip birakilana kadarki surecte uygulanir */
+
+a.link-three:active , a.link-two:active, a.link-one:active{
+    color: darkred;
+    background-color: beige;
+}
