@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: red;
+    margin: 10px;
+}
+
+.container1{
+ background-color: green;
+height: 250px;
+}
+.container2{
+ background-color: turquoise;
+height: 250px;
+}
+.container3{
+ background-color: darkred;
+height: 250px;
+}
+.box1{
+    background-color: lemonchiffon;
+    height: 150px;
+    width: 150px;
+    /* saga yapisturmak istedigimde sag sifir sol auto yapmam gerekir */
+    margin-right: 0;
+    margin-left: auto;
+}
+.box2{
+    background-color: rgb(255, 0, 238);
+    height: 150px;
+    width: 150px;
+    /* sola yapisturmak istedigimde sol sifir sag auto yapmam gerekir */
+    margin-right: auto;
+    margin-left: 0;
+}
+.box3{
+    background-color: lightgray;
+    height: 150px;
+    width: 150px;
+    /* ortalamak istedigimde sol auto sag auto yapmam gerekir */
+    margin-right: auto;
+    margin-left: auto;
+}
