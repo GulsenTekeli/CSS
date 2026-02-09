@@ -3,14 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
     font-size: small;
+}
+body{
+        font-family: "Roboto", sans-serif;
 }
 
 nav.menu{
     background-color: rgb(60, 60, 60);
     text-align: center;
     padding: 15px;
+    margin: 0%;
 }
 
 nav.menu a{
@@ -26,4 +29,63 @@ nav.menu img{
 }
 nav.menu a:hover{
     color: rgb(103,144,231);
+}
+main.main-menu section{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+main.main-menu section h2{
+  font-size: 2.5rem;
+  text-align: center;
+}
+main.main-menu section p{
+    color: rgb(3,3,3);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    width: 500px;
+    margin: 0 auto 10px;
+}
+main.main-menu section p.satis-tarihi{
+    color: #777;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+main.main-menu section div.links{
+    margin-bottom: 30px;
+}
+
+main.main-menu section div.links a{
+    color: rgb(71,129,236);
+    margin-right: 30px;
+    text-decoration: none;
+}
+main.main-menu section img.birinci{
+width: 330px;;
+height: 400px;
+}
+
+
+main.main-menu section img.ikinci{
+width: 1100px;
+height: 500px;
+text-align: center;
+}
+main.main-menu section img.watch{
+width: 1100px;
+height: 500px;
+text-align: center;
+}
+
+main.main-menu section.watch h2 img{
+width: 35px;
+}
+
+main.menu section.watch p.series{
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 6px;
 }
