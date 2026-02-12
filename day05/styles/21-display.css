@@ -46,4 +46,15 @@ a:hover{
     border: 1px solid chartreuse;
     padding: 10px;
     margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+}
+
+.container .card p{
+    text-align: justify;
+}
+
+.hidden{
+     display: none;
 }
