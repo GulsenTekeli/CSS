@@ -1,0 +1,41 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+.para1::first-letter{
+font-size: 50px;
+font-style: italic;
+font-weight: 700;
+color: blue;
+background-color: whitesmoke;
+}
+
+.para2::first-line{
+    font-size: 30px;
+    font-weight: bold;
+    color: lightblue;
+}
+/* paragraf yada satiri secince */
+.para3::selection{
+    background-color: bisque;
+    color: rgb(12, 47, 58);
+}
+
+li::marker{
+    font-size: 2rem;
+    color: orange;
+}
+
+div.box{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    text-align: center;
+}
+
+div.box span::before,div.box span::after{
+    content: "~";
+    color: whitesmoke;
+    padding: 10px;
+}

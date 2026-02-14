@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: red;
+}
+div{
+    border: 5px solid red;
+}
+div div{
+    border: 5px solid green;
+}
+/* child combinator */
+/* birinci dereceden cocugu olanlari secer - torunlari degil normalde hepsini secmesini beklerdik ama > ile sadece cocuklari sectik*/
+.container > p{
+font-size: 2rem;
+}
+/*next sibling (adjacent combinator  */
+/* kendisinden hemen sonra gelen kardes elementin sadece ilkini secer */
+.container + ul{
+  list-style-type: none; 
+  font-size: 30px; 
+}
+/* subsequent sibling combinator */
+/* kendisinden sonra gelen kardes elementlerin hepsini secer */
+.container ~ ul{
+    color: bisque;
+    background-color: #333;
+}
+
+ul ~a{
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+}
+.container ~p{
+    background-color: turquoise;
+    width: 300px;
+    margin: 10px auto;
+}

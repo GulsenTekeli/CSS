@@ -1,0 +1,105 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+h1:active{
+    letter-spacing: 10px;
+    color: rgb(175, 66, 66);
+    font-style: italic;
+}
+.btn-1{
+    padding: 5px 20px;
+    background-color: black;
+    color: gold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+.btn-1:hover{
+    background-color: seagreen;
+    color: rgb(195, 253, 234);
+}
+
+.btn-1:active{
+    background-color: gold;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px 20px;
+}
+a.visited:hover{
+    letter-spacing: 10px;
+}
+a.unvisited:hover{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited{
+    color: tomato;
+    background-color: rgb(131, 83, 25);
+}
+a:link{
+    background-color: red;
+    color: blue;
+}
+.text-input{
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.text-input:focus{
+    background-color: rgb(223, 222, 222);
+    color: #333;
+}
+
+.checkbox:checked{
+width: 100px;
+height: 100px;
+/* background-color: black;
+color: green; */
+}
+
+.list li:first-child{
+    background-color: rebeccapurple;
+    color: lightpink;
+}
+
+.list li:last-child{
+    background-color: rgb(37, 37, 106);
+    color: rgb(22, 154, 99);
+}
+.ordered li:nth-child(odd){
+    background-color: navy;
+    color: lightskyblue;
+}
+
+.ordered li:nth-child(even){
+    background-color: rgb(128, 0, 100);
+    color: rgb(246, 247, 247);
+}
+
+
+.ordered li:nth-child(5n){
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.ordered li:nth-child(10){
+  background-color: green;
+  color: greenyellow; 
+}
+/* span icindeki ilk cocuk */
+div span:first-child{
+   background-color: chocolate; 
+   color: aliceblue;
+}
+
+/* div icinfeki ilk p tagi */
+div p:first-of-type{
+   background-color: rgb(201, 210, 30); 
+   color: aliceblue;
+}
