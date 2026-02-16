@@ -1,0 +1,10 @@
+ul{
+    list-style: none;
+}
+li::before{
+    /* sadece solid ucretsiz */
+    font: var(--fa-font-solid);
+    /* unicode \ ile kullanilir */
+   content:'\f0f3';
+   padding: 10px;
+}
