@@ -18,11 +18,74 @@ h1{
     border: 3px solid white;
     height: 90vh;
     display: flex;
-    /* flex-direction => row */
+    /* DEFAULT flex-direction => row */
     /* flex-direction => column */
     /* flex-direction: row-reverse; */
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
+    /* DEFAULT 
+    justify-content:  flex-start; 
+   sola dayali yaslar */
+    /*saga dayali yaslar  */
+    /* justify-content: flex-end; */
+    /* ortalar */
+    justify-content: center;
+    /* bastaki en basa sondaki en sona olmak uzere aralarda esit bosluklar */
+    /* justify-content: space-between; */
+    /* sol sag ve aralarda heryere esit aralik birakir  */
+    /* justify-content: space-evenly; */
+    /* basa x sona x ve aralara 2x mesafe */
+    /* justify-content: space-around; */
+
+    /* DEFAULT   
+    align-items:stretch ;
+     */
+     /* widt - height degeri varsa gorunmez */
+     /* align-items: stretch;
+     align-items: center; */
+     /* align-items: center; */
+     /* align-items: flex-start; */
+     /* align-items: flex-end; */
+
+     /* align-items, flex-direction row iken dikeyde;
+     flex-direction column iken yatayda hizalama yapacaktir. */
+
+     /*  EGER DISPLAY FLEX OLMAZSA TUM BUNLARI KULLANAMAM ON KOSUL DISPLAY FLEX OLMAASI  */
+
+     /* column-gap:10px ;
+     row-gap: 10px; */
+     /* gap flex elemanlari arasina bosluk koymk icin kullanilir */
+     gap: 20px;
+     /* DEFAULT flex-wrap: nowrap; */
+     flex-wrap: wrap;
+     /* flex-wrap: flex elemanlarin sonraki satiira gecip gecmemesini ayarlamak icin kullanilir  */
+     align-content: center;
+
+
 }
+/* elementleri dikeyde hareket ettirmek icin align-items: flex-start flex-end  strech ya da center 
+yatayda hareket ettimek icin  justify- content: flex-start, flex-end , flex-center ya da space-between */
+
+/* ekranin tam ortasi isteseydim 
+justify-content:center  
+align-items-center olurdu */
+
+/* 
+ekranin tam sag alt kosesi isteseydim
+align-items:flex-end;
+justify-content: flex-end;
+ */
+
+ /* 
+ekranin tam sol alt kosesi isteseydim
+align-items:flex-start;
+justify-content: flex-start;
+ */
+  /* 
+ekranin tam sag ust kosesi isteseydim
+align-items:flex-start;
+justify-content: flex-end;
+ */
+
 
 
 .box{

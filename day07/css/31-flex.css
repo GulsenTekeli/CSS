@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    color: white;
+}
+h1{
+    text-align: center;
+    color:red;
+}
+.container{
+    display: flex;
+    height: 90vh;
+}
+.box{
+    font-size: 3rem;
+ }
+ .box1{
+    background-color: darkred;
+     /* flex-grow: 1; */
+    flex: 1 1 250px; 
+    /* flex-grow  veya flexin ilk degeri ilgili elementin kac oranlikalan kaplayacagini belirler */
+    /* flex-shrink veya flexin ikinci degeri ilgili elementin kac kat hizla kucukecegini belirler  */
+
+    /* flex-basis veya flexin ucuncu degeri ilgili elementin yeterli alan varsa en az ne kadar genisligi olacagini belirler */
+ }
+ .box2{
+    background-color: darkcyan;
+    flex: 1 1 100px;
+ }
+ .box3{
+    background-color: darkgrey;
+    flex: 3 10 100px;
+ }
+ .box4{
+    background-color: darkslateblue;
+    flex: 1 1 100px;
+ }
