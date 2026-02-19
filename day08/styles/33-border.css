@@ -1,0 +1,63 @@
+body{
+    background-color: #333;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.border{
+    width: 200px;
+    height: 200px;
+    background-color: #777;
+    margin: 30px auto;
+}
+
+.border1{
+    border: 3px solid crimson;
+}
+
+.border2{
+    border: 5px inset salmon;
+    /* 
+    dotted
+    inset
+    dottet 
+    ridge
+    outset
+    double
+    groove
+    */
+}
+
+.border3{
+  border-top: 10px dotted gold ;
+   border-left: 10px ridge blue ; 
+   border-bottom: 10px solid darkorange ;
+   border-right: 8px dashed darkgreen;
+}
+
+.border4{
+    border: 3px solid pink;
+    border-radius: 10%;
+}
+.border5{
+    border: 3px solid purple;
+    border-radius: 50%;
+}
+.border6{
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    background: none;
+    color: white;
+    border-bottom: 5px solid red;
+    border-radius: 10px;
+}
+.border6::placeholder{
+color:white;
+
+}
+.border6:focus{
+    border-width: 2px;
+}

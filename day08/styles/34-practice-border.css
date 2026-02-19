@@ -1,0 +1,35 @@
+body{
+    background-color: #333;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.buttons-container{
+    height: 200px;
+    background-color: rgb(26, 26, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: cyan;
+    font-weight: 700;
+    border: 5px solid cyan;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn:first-child{
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.btn:last-child{
+    /* border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px; */
+    border-radius: 15px 40px 40px 15px;
+}
