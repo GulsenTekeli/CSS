@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+body{
+    padding:20px;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    /*  */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar2{
+   width: 100%;
+    background-color: red;
+    /*z-index: -1;  */
+    z-index: 2;
+    position: sticky;
+    bottom: 0;
+}
+.container2{
+   background-image: url(../assets/whatsapp-svgrepo-com.svg);
+   width: 100px;
+   height: 100px;
+   background-size: cover; 
+   background-repeat: no-repeat;
+   background-position: center;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   background-color: chartreuse;
+   border-radius: 50px ;
+   background-size: 70px 70px;
+   z-index: 3;
+}
