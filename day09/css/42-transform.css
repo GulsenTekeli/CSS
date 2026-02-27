@@ -55,3 +55,9 @@ img{
     right: 50%;
     transform: translate(50%,-50%);
 }
+.btn1:hover{
+    background-color: blue;
+    color: red;
+    transform: rotate(360deg);
+    transition: all 3s;
+}
